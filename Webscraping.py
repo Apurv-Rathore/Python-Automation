@@ -1,9 +1,19 @@
+'''
+import selenium
+from selenium import webdriver
+
+from bs4 import BeautifulSoup
+import pandas as pd
+
+from webdriver_manager.chrome import ChromeDriverManager
+driver = webdriver.Chrome('C:/Users/ABC/Desktop/chromedriver.exe')
+'''
 import selenium
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome('C:/Users/ABC/Desktop/chromedriver.exe')
-email = "<enter your email>"
-pas= "<enter your password>"
+email = "thelegend2710"
+pas= "apoorv2710"
 class Bot():
     def __init(self):
         self.driver = webdriver.Chrome('C:/Users/ABC/Desktop/chromedriver.exe')
